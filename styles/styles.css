@@ -336,6 +336,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   /* max-width: 100%; */
 }
 
@@ -343,6 +344,9 @@ body {
   display: flex;
   width: 168px;
   height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  gap: 24px;
 }
 
 /* -----FOOTER------*/
