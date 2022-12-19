@@ -139,6 +139,15 @@ body {
   background: var(--color-main);
   padding-top: 192px;
   padding-bottom: 192px;
+  max-width: 1440px;
+  height: 600px;
+  background-image: linear-gradient(to top left, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url("../images/people-office.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -263,6 +272,35 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
+}
+
+.team-icon-list {
+  display: flex;
+  padding: 0;
+  margin-top: 12px;
+  margin-left: 16px;
+  margin-right: 16px;
+  gap: 26px;
+  align-items: center;
+}
+
+/* .team-icon-item {
+  width: 40px;
+  height: 40px;
+} */
+
+/* .team-icon-link {
+  background-color: var(--color-accent);
+} */
+
+.icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-accent);
 }
 
 /* -----FOOTER------*/
